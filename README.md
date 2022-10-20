@@ -12,7 +12,7 @@ make
 ```
 
 ### Detect secrets
-If detect secrets fails dont forget to run a scan and audit any detected secrets. Don't commit real secrets to source control!
+If detect secrets fails don't forget to run a scan and audit any detected secrets. Don't commit real secrets to source control!
 
 ```bash
 detect-secrets scan > .secrets.baseline
@@ -20,4 +20,11 @@ detect-secrets scan > .secrets.baseline
 
 ```bash
 detect-secrets audit .secrets.baseline
+```
+
+### Git submodule
+Common dev tooling is added as part of a git submodule. To keep this upto date run the following command
+
+```bash
+git submodule update --remote --merge
 ```
