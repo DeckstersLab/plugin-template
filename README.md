@@ -1,5 +1,5 @@
-# plugin-template
-Template repo for new plugins
+# repo-template
+Template repo for repos
 
 ## Local Development Setup
 Follow the below steps to get set up with your local development environment in order to contribute to this repo..
