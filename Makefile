@@ -1,1 +1,1 @@
-common-dev-assets/plugin-assets/Makefile
+common-dev-assets/common-assets/Makefile
